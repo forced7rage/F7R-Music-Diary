@@ -56,11 +56,11 @@
 
 ### Use Case диаграмма
 
-![Use Case](use_case.jpg)
+![Use Case](use_case_diagram.jpg)
 
 ### Блок-схема программы
 
-![Блок-схема](flowchart.jpg)
+![Блок-схема](block_scheme.jpg)
 
 ---
 
