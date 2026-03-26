@@ -23,7 +23,7 @@ music-diary-app/
 ├── use_case.png
 ├── flowchart.png
 ```
----
+
 
 Пользователь может:
 
