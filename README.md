@@ -79,14 +79,3 @@ music-diary-app/
 
 ![Блок-схема](block_scheme.png)
 
-
-
-
-###  Технологии
-
-* Python
-* Tkinter
-* JSON
-* logging
-
-
