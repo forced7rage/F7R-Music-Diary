@@ -10,19 +10,6 @@
 
 
 
-###  Структура проекта
-
-```
-music-diary-app/
-│
-├── main.py
-├── README.md
-├── main_window.jpg
-├── add_track.jpg
-├── stats.jpg
-├── use_case.png
-├── flowchart.png
-```
 
 
 ### Пользователь может:
