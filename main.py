@@ -5,7 +5,7 @@ import os
 import logging
 from statistics import mean
 
-# ---------------- НАСТРОЙКА ПАПОК ----------------
+#НАСТРОЙКА ПАПОК
 DATA_DIR = "data"
 LOGS_DIR = "logs"
 DATA_FILE = os.path.join(DATA_DIR, "tracks.json")
@@ -14,7 +14,7 @@ LOG_FILE = os.path.join(LOGS_DIR, "app.log")
 os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(LOGS_DIR, exist_ok=True)
 
-# ---------------- ЛОГИРОВАНИЕ ----------------
+#ЛОГИРОВАНИЕ
 logging.basicConfig(
     filename=LOG_FILE,
     level=logging.INFO,
@@ -22,7 +22,7 @@ logging.basicConfig(
     encoding="utf-8"
 )
 
-# ---------------- ИНИЦИАЛИЗАЦИЯ ФАЙЛА ----------------
+#ИНИЦИАЛИЗАЦИЯ ФАЙЛА 
 if not os.path.exists(DATA_FILE):
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump([], f, ensure_ascii=False, indent=4)
